@@ -1,0 +1,7 @@
+.idea/
+api.spec
+.venv/
+node_modules/
+build/
+dist/
+pycalcdist/
