@@ -48,4 +48,4 @@ pip install pypiwin32 # for pyinstaller
 ./node_modules/.bin/electron .
 ```
 
-注意：若在Windows下运行上述斜线改成反斜线即可。
+注意：若在Windows下运行需把上述斜线改成反斜线。
