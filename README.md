@@ -23,21 +23,29 @@ start
 +--------------------+               +------------------+
 ```
 
+## 依赖项
+- [NodeJS](https://nodejs.org/)
+
+以及 Python 的依赖库：
+```bash
+pip install zerorpc
+pip install pyinstaller
+
+# for windows only
+pip install pypiwin32 # for pyinstaller
+```
+
 ## 开始运行
 
-运行这个试试看：
+首先执行这条语句来下载、安装项目依赖的包：
+```bash
+./npm install
+```
+
+然后启动 Electron 即可：
 
 ```bash
 ./node_modules/.bin/electron .
 ```
 
-Awesome!
-
-If something like dynamic linking errors shows up, try to clean the caches and install the libraries again.
-
-```bash
-rm -rf node_modules
-rm -rf ~/.node-gyp ~/.electron-gyp
-
-npm install
-```
+注意：若在Windows下运行上述斜线改成反斜线即可。
